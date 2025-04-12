@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Kanit:wght@300&display=swap" rel="stylesheet">
+    <script src="/index.js"></script>
+    <title>Sistema Financeiro</title>
+</head>
+<body>
+    <div class="fullprog" id="fullprog_id">
+        <div class="ContainerValores" id="ContainerValores_id">
+            <div class="InfoValores" id="InfoValores_id">
+                <div class="quadrado">Entradas:<br><p id="DadosEntradas">0</p></div>
+                <div class="quadrado">Saidas: <br><p id="DadosSaidas">0</p></div>
+                <div class="quadrado">Total: <br><p id="DadosTotal">0</p></div>
+            </div>
+            
+        </div>
+        <div class="InputsValores" id="InfoValores_id">
+            <div class="DescInput" id="DescInput_id">
+                <label for="Descricao">Descrição</label>
+                <input class="inptdesc" type="text" id="inptdesc_id">
+            </div>
+            <div class="DescInput" id="ValorInput_id">
+                <label for="Descricao">Valor</label>
+                <input class="inptdesc" id="InputValueHTML" type="text">
+            </div>
+            <div class="options" id="Options_id">
+                <label for="opcao">Tipo</label>
+                <select class="InputSelect" name="tipo" id="InputSelect_id">
+                    <option id="Entrada_id" value="Entrada">Entrada</option>
+                    <option id="Saida_id" value="Saida">Saida</option>
+                </select>
+            </div>
+            <div class="ContainerBTN" id="ContainerBTN_id">
+                <button class="botao-incluir" id="btn_incluir">Incluir</button>
+            </div>
+            
+        </div>
+
+        <div class="TabelaSpam" id="TabelaSpam_id">
+            <table id="table_id" style="width:80%">
+                <tr class="TableStyle">
+                  <th>Descrição</th>
+                  <th>Valor</th>
+                  <th>tipo</th>
+                  <th>Excluir</th>
+                </tr>
+            </table>
+        </div>
+
+    </div>
+
+</body>
+</html>
+
